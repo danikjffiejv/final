@@ -1,0 +1,305 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    outline: none;
+}
+
+header {
+    background-color: #222;
+    padding: 20px;
+ }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color:#ffffff
+ }
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+ }
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+ }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: #453d3d;
+ }
+
+.hero-text {
+    max-width: 50%;
+ }
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color:rgb(255, 255, 255)
+ }
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.btn {
+    padding: 15px 30px;
+    background-color: #9e725c;
+    color: #333;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 100px;
+}
+
+.body1 {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 588px;
+    width: 1250;
+ 
+  }
+  
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+ 
+.text-section {
+    max-width: 50%;
+    color: #000;
+ }
+  
+  
+.image-section img {
+    max-width: 100%;
+    height: auto;
+ }
+
+
+/*
+ .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+  }
+*/
+
+
+.body1 {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 588px;
+    width: 1250;
+ 
+  }
+  
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+ 
+.text-section {
+    max-width: 50%;
+    color: #000;
+ }
+  
+  
+.image-section img {
+    max-width: 100%;
+    height: auto;
+ }
+
+ .body3 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #332d2d;
+  }
+
+
+  
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  }
+  
+.icon {
+    text-align: center;
+    margin: 20px;
+  }
+  
+.icon img {
+    width: 50px; 
+    height: auto;
+  }
+
+.headin{
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+.card {
+     text-align: center;
+     margin-top:50px; ;
+ }
+  
+.card img {
+     width:150px; 
+     height:auto; 
+     margin-bottom:10px; 
+ }
+  
+.card h3 {
+     margin-bottom:10px; 
+  }
+  
+.card p {
+     margin-bottom:20px; 
+ }
+  
+.card button{
+     background-color:white; 
+     border:none; 
+     padding:10px; 
+     cursor:pointer;
+    
+ }
+  
+ body4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.orange-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.orange-button:hover {
+    background-color: darkorange;
+}
+
+.contact-info {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-info div {
+    margin: 0 10px;
+  }
+  .contact-info a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+
+
+
+ 
+
+
+
+
+
+
+
+  
+
+
+
+
+
+.body4 {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 588px;
+    width: 1250;
+    background: #333;
+  }
+  
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+ 
+.text-sections {
+    max-width: 50%;
+    color: #000;
+ }
+  
+  
+.image-section img {
+    max-width: 100%;
+    height: auto;
+ }
+
+.text-sections p {
+    opacity: 0,5;
+}
+
